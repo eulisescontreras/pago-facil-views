@@ -1,0 +1,29 @@
+
+<ion-content padding center class="startPage">
+  <div class="content">
+    <div class="content-list">
+      <ion-list>
+
+        <ion-label class="text">INGRESA TUS DATOS</ion-label>
+        <ion-item>
+          <ion-input type="text" placeholder="Nombre y Apellido"></ion-input>
+        </ion-item>
+        <br/>
+        <ion-item>
+          <ion-input type="text" placeholder="Cedula de identidad"></ion-input>
+        </ion-item>
+        <br/>
+        <ion-item>
+          <ion-input type="text" placeholder="Email"></ion-input>
+        </ion-item>
+
+      </ion-list>
+    </div>
+    <ion-grid>
+      <ion-row>
+          <ion-col col-8 offset-2><ion-label class="text">SIGUIENTE</ion-label></ion-col>
+          <ion-col col-1 pull-1><div padding><button class="button" ion-button (click)="siguiente();" block></button></div></ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
